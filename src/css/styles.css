@@ -1,0 +1,43 @@
+ion-page.ion-page {
+  display: none;
+}
+
+ion-page.page-active {
+  display: flex;
+}
+
+#cajerosMapa {
+  height: 90%;
+}
+
+:root {
+  --ion-color-primary: #a0cf3a;
+  --ion-color-primary-rgb: 160, 207, 58;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
+  --ion-color-primary-shade: #8db633;
+  --ion-color-primary-tint: #aad44e;
+
+  /* --ion-color-danger: #3aaccf;
+  --ion-color-danger-rgb: 160, 207, 58;
+  --ion-color-danger-contrast: #000000;
+  --ion-color-danger-contrast-rgb: 0, 0, 0;
+  --ion-color-danger-shade: #8db633;
+  --ion-color-danger-tint: #aad44e; */
+
+  --ion-color-custom: #a540a2;
+  --ion-color-custom-rgb: 165, 64, 162;
+  --ion-color-custom-contrast: #ffffff;
+  --ion-color-custom-contrast-rgb: 255, 255, 255;
+  --ion-color-custom-shade: #91388f;
+  --ion-color-custom-tint: #ae53ab;
+}
+
+.ion-color-custom {
+  --ion-color-base: var(--ion-color-custom);
+  --ion-color-base-rgb: var(--ion-color-custom-rgb);
+  --ion-color-contrast: var(--ion-color-custom-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-custom-contrast-rgb);
+  --ion-color-shade: var(--ion-color-custom-shade);
+  --ion-color-tint: var(--ion-color-custom-tint);
+}
